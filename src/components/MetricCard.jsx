@@ -14,7 +14,7 @@ import { Badge, Stat } from "@chakra-ui/react"
 // }
 
 export function MetricCard({ title, value, icon }) {
-  if(title=="Users"){
+  if(title==="Users"){
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 flex items-center space-x-4 transform transition duration-300 hover:scale-[1.05] cursor-pointer">
       <div className="p-3 rounded-full bg-blue-500 text-white text-2xl flex items-center justify-center">
@@ -38,7 +38,7 @@ export function MetricCard({ title, value, icon }) {
     </div>
   );
 }
-else if( title=="Revenue"){
+else if( title==="Revenue"){
   return(
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 flex items-center space-x-4 transform transition duration-300 hover:scale-[1.05] cursor-pointer">
       <div className="p-3 rounded-full bg-blue-500 text-white text-2xl flex items-center justify-center">
@@ -64,7 +64,7 @@ else if( title=="Revenue"){
     
   );
 }
-else if (title=="Growth"){
+else if (title==="Growth"){
   return(
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 flex items-center space-x-4 transform transition duration-300 hover:scale-[1.05] cursor-pointer">
       <div className="p-3 rounded-full bg-blue-500 text-white text-2xl flex items-center justify-center">
